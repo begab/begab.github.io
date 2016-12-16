@@ -1,9 +1,11 @@
 # Sparse coded vectors of Sparse Coding of Neural Word Embeddings for Multilingual Sequence Labeling
 
 [bg](https://github.com/begab/sparse_embeds/raw/master/spams/bg.alph)
+
 [cs](https://github.com/begab/sparse_embeds/raw/master/spams/cs.alph)
-[da](https://github.com/begab/sparse_embeds/raw/master/spams/da.alph)
-[de](https://github.com/begab/sparse_embeds/raw/master/spams/de.alph)
+
+[da](https://github.com/begab/sparse_embeds/raw/master/spams/da.alph)  
+[de](https://github.com/begab/sparse_embeds/raw/master/spams/de.alph)  
 [el](https://github.com/begab/sparse_embeds/raw/master/spams/el.alph)
 [en](https://github.com/begab/sparse_embeds/raw/master/spams/en.alph)
 [es](https://github.com/begab/sparse_embeds/raw/master/spams/es.alph)
