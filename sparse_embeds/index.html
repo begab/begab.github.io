@@ -8,7 +8,8 @@ title: Sparse coded word representations
     $$\min\limits_{D \in \mathcal{C}, \alpha} \frac{1}{2n} \sum_{i=1}^{n} \left(\lVert \mathbf{x}_i-D \boldsymbol{\alpha}_i \rVert_2^2 + \lambda \lVert \boldsymbol{\alpha}_i \rVert_1 \right)$$
 </div><!-- /.blurb -->
 <ul>
-{% for l in ['bg', 'cs', 'da', 'de'] %}
+    {% assign languages = "bg,cs,da,de,en,es,eu,fa,fi,la" | split: "," %}
+{% for l in languages %}
 {{ l }}
 {% endfor %}
 </ul>
