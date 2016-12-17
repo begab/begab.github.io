@@ -9,9 +9,9 @@ title: Sparse coded word representations
 
     <a href="https://sites.google.com/site/rmyeid/projects/polyglot">polyglot</a>
     
-    Each of the below files store the $\alpha \in \mathbb{R}^{|V| \times 1024}$ matrix in scipy.sparse.csr_matrix format for each language.
+    Each of the below files store the $\alpha \in \mathbb{R}^{|V| \times 1024}$ matrix in scipy.sparse.csr_matrix format for each language (with $\lvert V \rvert$ denoting the size of the vocabulary).
     {% highlight python %}
-    import pickles
+    import pickle
     alphas_file = 'en.alph'
     english_alphas = pickle.load(open(alphas_file, 'rb'))
     {% endhighlight %}
