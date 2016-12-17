@@ -6,7 +6,13 @@ title: Sparse coded word representations
     <h1>Sparse Coding of Neural Word Embeddings for Multilingual Sequence Labeling</h1>
     <p>Below is the list of sparse coding when applied </p>
     $$\min\limits_{D \in \mathcal{C}, \alpha} \frac{1}{2n} \sum_{i=1}^{n} \left(\lVert \mathbf{x}_i-D \boldsymbol{\alpha}_i \rVert_2^2 + \lambda \lVert \boldsymbol{\alpha}_i \rVert_1 \right)$$
-</div><!-- /.blurb -->
+</div>
+The below files store a $$\mathbb{R}^{m \times n}$$ matrices in scipy.sparse.csr_matrix format.
+{% highlight ruby %}
+def foo
+  puts 'foo'
+  end
+{% endhighlight %}
 <ul>
     {% assign languages = "bg,cs,da,de,el,en,es,et,eu,fa,fi,fr,ga,he,hi,hr,hu,id,it,la,nl,no,pl,pt,ro,sl,sv,ta,tr" | split: "," %}
     {% for l in languages %}
