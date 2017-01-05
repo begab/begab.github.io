@@ -14,6 +14,7 @@ $$\min\limits_{D \in \mathcal{C}, \alpha} \frac{1}{2n} \sum_{i=1}^{n} \left(\lVe
 where $D$ belongs to the convex set of matrices comprising of unit vectors, $\mathbf{x}_i$ refers to a dense polyglot word representation and $\boldsymbol{\alpha}_i$ corresponds to its sparse counterpart. The files below contain a `scipy.sparse.csr_matrix` object storing an $\alpha \in \mathbb{R}^{\lvert V \rvert \times 1024}$ sparse matrix for each language (with $\lvert V \rvert$ denoting the size of the vocabulary).
     
 The vocabulary for each language is tied to that of the original polyglot representations, so in order to figure out which row of $\alpha$ corresponds to which vocabulary unit, one should obtain the original polyglot vocabularies. The vocabularies can be downloaded from the [project website](https://sites.google.com/site/rmyeid/projects/polyglot#TOC-Download-the-Embeddings) (together with the dense embeddings themselves). Loading the vocabulary and both the sparse and dense embeddings thus can be performed via:
+
 ```python
 import pickle
 vocabulary, dense_polyglot_embeddings = pickle.load(open(path_to_dense_polyglot_embeddings, 'rb'))
