@@ -3,7 +3,6 @@ layout: post
 title: "Analyzing TACL publication patterns"
 date: 2017-01-06 00:10:30 +0100
 permalink: :slug
-google_analytics: UA-89903221-1
 comments: true
 ---
 This writeup is intended as an add-on for Marek Rei's post on [NLP publication patterns](http://www.marekrei.com/blog/analysing-nlp-publication-patterns/). I think -- also confirmed by the comments of that blog post -- that a similar analysis focusing this time on [TACL](https://transacl.org/ojs/index.php/tacl) publications could be of public interest. Hence, I decided to do some work in that respect. Hopefully, some members of the community would find the followings useful.
