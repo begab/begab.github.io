@@ -3,11 +3,12 @@ layout: post
 title: "Analyzing TACL publication patterns"
 date: 2017-01-06 00:10:30 +0100
 permalink: :slug
+google_analytics: UA-89903221-1
 comments: true
 ---
 This writeup is intended as an add-on for Marek Rei's post on [NLP publication patterns](http://www.marekrei.com/blog/analysing-nlp-publication-patterns/). I think -- also confirmed by the comments of that blog post -- that a similar analysis focusing this time on [TACL](https://transacl.org/ojs/index.php/tacl) publications could be of public interest. Hence, I decided to do some work in that respect. Hopefully, some members of the community would find the followings useful.
 
-From a personal side, this project was also a great excuse to keep my python scripting skills alive and also to test the indulgence of Google Scholar against automatic queries. In order to save others from the excitement of being temporarily banned from Google Scholar I made the datasets I collected (reflecting the state as of 30.12.2016) available as a pandas dataframe [in json format](/assets/data/posts/tacl_data.json).
+From a personal side, this project was also a great excuse to keep my python scripting skills alive and also to test the indulgence of Google Scholar against automatic queries. In order to save others from the excitement of being temporarily banned from Google Scholar I made the datasets I collected (reflecting the state as of 30.12.2016) available as a pandas dataframe [in json format](/assets/posts/tacl_data.json).
 
 First thing first, the following figure contains institutions with highest presence in TACL. Affiliations assigned to a paper were treated as a set (so if more author of a publication shared an institution that institution got counted once) and no partial assignment of institutions were employed (meaning that a paper assigned to multiple institutions counted as one presence for all the institutions being involved in a paper). After creating a normalization dictionary for institution names 113 distinct institutions were identified among the authors' affiliations. The below figure depicts those 30 institutions that were aligned to at least 3 TACL papers in the analysis.
 

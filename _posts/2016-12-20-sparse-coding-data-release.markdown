@@ -3,6 +3,7 @@ layout: post
 title:  "Sparse Coding of Neural Word Embeddings for Multilingual Sequence Labeling"
 date:   2016-12-20 00:10:30 +0100
 comments: true
+google_analytics: UA-89903221-1
 permalink: sparse_embeds
 ---
 This page contains the sparse word representations used for the experiments of the TACL paper entitled *Sparse Coding of Neural Word Embeddings for Multilingual Sequence Labeling*.
