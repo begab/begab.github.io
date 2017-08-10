@@ -5,9 +5,12 @@ date:   2016-12-20 00:10:30 +0100
 comments: true
 permalink: sparse_embeds
 ---
+
 This page contains the sparse word representations used for the experiments of the TACL paper entitled *Sparse Coding of Neural Word Embeddings for Multilingual Sequence Labeling*.
 
-We determined *sparse* word representations based on the dense distributed word representations of the [polyglot project](https://sites.google.com/site/rmyeid/projects/polyglot) using the objective function
+# Update (11/08/2017): The source code used to run the experiments for the paper can be accessed from [github](https://github.com/begab/tacl_sparse_coding)
+
+During the experiments we determined *sparse* word representations based on the dense distributed word representations of the [polyglot project](https://sites.google.com/site/rmyeid/projects/polyglot) using the objective function
 
 $$\min\limits_{D \in \mathcal{C}, \alpha} \frac{1}{2n} \sum_{i=1}^{n} \left(\lVert \mathbf{x}_i-D \boldsymbol{\alpha}_i \rVert_2^2 + \lambda \lVert \boldsymbol{\alpha}_i \rVert_1 \right),$$
 
@@ -34,4 +37,11 @@ We also created word representations using the objective functions introduced by
 {% assign languages = "bg,cs,da,de,el,en,es,et,eu,fa,fi,fr,ga,he,hi,hr,hu,id,it,la,nl,no,pl,pt,ro,sl,sv,ta,tr" | split: "," %}
 |Wikipedia language code|uncostrained|non-negative|
 {% for l in languages %}|{{ l }}|[{{ l }}-0.5](http://rgai.inf.u-szeged.hu/~berend/sparse_reps_unc/{{ l }}-1024-0.5.alph)|[{{ l }}-0.5](http://rgai.inf.u-szeged.hu/~berend/sparse_reps_nn/{{ l }}-1024-0.5.alph)|
+{% endfor %}
+
+Brown clusters were also trained for the 25 languages to be found below:
+
+{% assign languages = "bg,cs,da,de,el,en,es,et,fa,fi,fr,he,hi,hr,hu,id,it,nl,no,pl,pt,ro,sl,sv,tr" | split: "," %}
+|Wikipedia language code|
+{% for l in languages %}|[{{ l }}](http://rgai.inf.u-szeged.hu/~berend/sparse_brown/{{ l }}.brown.gz)|
 {% endfor %}
