@@ -28,6 +28,7 @@ disqus:
 
 gems:
   - jekyll-feed
+  - jekyll-relative-links
 exclude:
   - Gemfile
   - Gemfile.lock

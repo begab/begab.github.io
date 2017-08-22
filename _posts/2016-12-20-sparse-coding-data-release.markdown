@@ -6,7 +6,7 @@ comments: true
 permalink: sparse_embeds
 ---
 
-This page contains the sparse word representations used for the experiments of the TACL paper entitled *Sparse Coding of Neural Word Embeddings for Multilingual Sequence Labeling*.
+This page contains the sparse word representations used for the experiments of the TACL paper entitled [*Sparse Coding of Neural Word Embeddings for Multilingual Sequence Labeling*](https://www.transacl.org/ojs/index.php/tacl/article/download/1063/241).
 
 # Update (11/08/2017): The source code used to run the experiments for the paper can be accessed from [github](https://github.com/begab/tacl_sparse_coding)
 
