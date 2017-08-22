@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Under construction.
+Currently I work as an assistant professor at the HLT Group of the Department of Informatics, University of Szeged.
